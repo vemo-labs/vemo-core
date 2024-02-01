@@ -1,0 +1,30 @@
+{
+  "name": "vemo-core",
+  "version": "1.0.0",
+  "description": "Smart contracts for Vemo core",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:vemo-labs/vemo-core.git"
+  },
+  "keywords": [
+    "vemo",
+    "voucher"
+  ],
+  "author": "Vemo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vemo-labs/vemo-core/issues"
+  },
+  "homepage": "https://github.com/vemo-labs/vemo-core#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@openzeppelin/contracts": "^4.9.3",
+    "dotenv": "^16.3.1",
+    "hardhat": "^2.19.1",
+    "hardhat-contract-sizer": "^2.10.0"
+  }
+}
